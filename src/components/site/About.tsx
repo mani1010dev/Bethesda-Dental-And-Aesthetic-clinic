@@ -1,6 +1,5 @@
 import { motion, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import clinic from "@/assets/clinic.jpg";
 
 function Counter({ to, suffix = "" }: { to: number; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -41,7 +40,7 @@ export function About() {
           className="relative"
         >
           <div className="overflow-hidden rounded-[2rem] shadow-luxe">
-            <img src={clinic} alt="Inside our clinic" className="h-full w-full object-cover" width={1400} height={1000} loading="lazy" />
+            <img src="/clinic_photo_10.jpeg" alt="Inside Bethesda Clinic" className="h-full w-full object-cover" width={1080} height={833} loading="lazy" />
           </div>
           <div className="absolute -bottom-8 -right-6 hidden rounded-2xl border border-border bg-card p-6 shadow-soft md:block">
             <div className="font-display text-4xl gold-text">A+</div>

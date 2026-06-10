@@ -19,18 +19,22 @@ export function Booking() {
   const onSubmit = async (data: Form) => {
     await new Promise((r) => setTimeout(r, 600));
 
-    const formattedText = `👋 Hello Bethesda Clinic, I would like to request an appointment:
+    // Construct WhatsApp message content
+    const messageText = `Hello Bethesda Clinic, I would like to request an appointment.
 
-📅 *Appointment Details:*
-👤 *Name:* ${data.name}
-📞 *Phone:* ${data.phone}
-✉️ *Email:* ${data.email}
-🩺 *Treatment:* ${data.treatment}
-🗓️ *Preferred Date:* ${data.date}
-${data.message ? `💬 *Message:* ${data.message}` : ""}`;
+*Appointment Details:*
+• *Name:* ${data.name}
+• *Phone:* ${data.phone}
+• *Email:* ${data.email}
+• *Treatment:* ${data.treatment}
+• *Preferred Date:* ${data.date}
+${data.message ? `• *Message:* ${data.message}` : ""}`;
 
-    const whatsappUrl = `https://wa.me/918056272207?text=${encodeURIComponent(formattedText)}`;
-    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+    const encodedText = encodeURIComponent(messageText);
+    const whatsappUrl = `https://wa.me/918056272207?text=${encodedText}`;
+
+    // Open WhatsApp in a new window/tab
+    window.open(whatsappUrl, "_blank");
 
     setDone(true);
     reset();

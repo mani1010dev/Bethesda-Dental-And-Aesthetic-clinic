@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Instagram, Linkedin, Twitter } from "lucide-react";
 import { doctors } from "./data";
 
 export function Doctors() {
@@ -25,13 +24,6 @@ export function Doctors() {
                 <div className="font-display text-3xl">{d.name}</div>
                 <div className="mt-1.5 text-sm text-gold tracking-wide">{d.role}</div>
                 <p className="mt-4 text-sm text-muted-foreground leading-relaxed">{d.bio}</p>
-                <div className="mt-6 flex items-center gap-3 text-muted-foreground">
-                  {[Instagram, Linkedin, Twitter].map((Icon, idx) => (
-                    <a key={idx} href="#" className="rounded-full border border-border p-2 transition-colors hover:border-gold hover:text-gold" aria-label="social">
-                      <Icon className="h-4 w-4" />
-                    </a>
-                  ))}
-                </div>
               </div>
             </motion.div>
           ))}

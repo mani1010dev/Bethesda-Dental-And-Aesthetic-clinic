@@ -44,7 +44,6 @@ export function Footer() {
           <ul className="mt-4 space-y-2 text-sm text-background/80">
             <li>43, Muthu Mariamman Koil St, East Tambaram, Chennai</li>
             <li><a href="tel:08056272207" className="hover:text-gold">08056272207</a></li>
-            <li><a href="mailto:info@bethesdadental.in" className="hover:text-gold">info@bethesdadental.in</a></li>
           </ul>
         </div>
       </div>

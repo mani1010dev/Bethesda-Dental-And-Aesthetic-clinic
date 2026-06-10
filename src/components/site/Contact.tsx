@@ -78,12 +78,6 @@ export function FloatingActions() {
       >
         <MessageCircle className="h-6 w-6" />
       </a>
-      <a
-        href="#book"
-        className="fixed bottom-6 left-6 z-40 hidden items-center gap-2 rounded-full primary-bg px-5 py-3 text-sm text-primary-foreground shadow-luxe transition-transform hover:-translate-y-0.5 sm:inline-flex"
-      >
-        Book Appointment
-      </a>
     </>
   );
 }

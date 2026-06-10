@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Sparkles, ArrowRight, Phone } from "lucide-react";
-import hero from "@/assets/hero.jpg";
 
 export function Hero() {
   return (
@@ -89,8 +88,8 @@ export function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="relative"
         >
-          <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] shadow-luxe">
-            <img src={hero} alt="Confident patient smiling at premium clinic" className="h-full w-full object-cover" width={1600} height={1100} />
+          <div className="relative aspect-[3/2] overflow-hidden rounded-[2rem] shadow-luxe">
+            <img src="/clinic_photo_9.jpeg" alt="Bethesda Clinic Front Office" className="h-full w-full object-cover" />
             <div className="absolute inset-0 ring-1 ring-inset ring-white/30 rounded-[2rem]" />
           </div>
 

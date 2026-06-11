@@ -70,8 +70,8 @@ export function Hero() {
             className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-border pt-8"
           >
             {[
-              ["20+", "Years"],
-              ["12k+", "Smiles"],
+              ["11+", "Years"],
+              ["110k+", "Smiles"],
               ["4.9★", "Rated"],
             ].map(([n, l]) => (
               <div key={l}>

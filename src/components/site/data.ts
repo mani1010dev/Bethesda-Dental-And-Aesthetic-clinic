@@ -8,8 +8,8 @@ export const dentalServices = [
   { title: "Dental Implants", desc: "Permanent, natural-looking replacements with titanium precision.", long: "Restore complete chewing function and confidence with biocompatible titanium implants placed under 3D-guided surgery. Lifetime warranty on quality." },
   { title: "Root Canal Treatment", desc: "Painless endodontics using rotary and microscope technology.", long: "Modern single-visit root canals with magnification, rubber dam isolation, and warm gutta-percha obturation for predictable, comfortable results." },
   { title: "Teeth Whitening", desc: "In-chair and take-home systems for a luminous smile.", long: "Clinically supervised whitening up to 8 shades brighter using enamel-safe peroxide gels and LED activation." },
-  { title: "Orthodontics", desc: "Clear aligners and discreet braces for every age.", long: "Invisalign, ceramic and lingual options. Digital scanning and AI-driven treatment planning for precise outcomes." },
-  { title: "Smile Makeover", desc: "Veneers, contouring and digital smile design.", long: "We craft your smile in software first using DSD, then sculpt ultra-thin porcelain veneers handmade by master ceramists." },
+  { title: "Orthodontics", desc: "Clear aligners, metal braces and discreet braces for every age.", long: "Invisalign, metal braces, ceramic and lingual options. Digital scanning and AI-driven treatment planning for precise outcomes." },
+  { title: "Smile Makeover", desc: "Veneers, crowns, contouring and digital smile design.", long: "We craft your smile in software first using DSD, then sculpt ultra-thin porcelain veneers and crowns handmade by master ceramists." },
   { title: "Pediatric Dentistry", desc: "Gentle, playful care for our youngest patients.", long: "Child-friendly environment, preventive sealants, fluoride and behavioural techniques that build a lifetime of healthy habits." },
 ];
 
@@ -24,7 +24,7 @@ export const aestheticServices = [
 
 export const whyUs = [
   { t: "Experienced Specialists", d: "Board-certified clinicians with 15+ years of practice." },
-  { t: "Modern Equipment", d: "CBCT, intraoral scanners and FDA-cleared laser platforms." },
+  { t: "Modern Equipment", d: "Digital X-ray, intraoral scanners and FDA-cleared laser platforms." },
   { t: "Personalized Plans", d: "Every smile journey is mapped to your goals and anatomy." },
   { t: "Pain-Free Procedures", d: "Sedation, numbing tech and gentle protocols throughout." },
   { t: "Hygiene & Safety", d: "Hospital-grade sterilisation and single-use instruments." },
@@ -32,8 +32,8 @@ export const whyUs = [
 ];
 
 export const doctors = [
-  { name: "Dr. Arul Joshua Joy", role: "Dental Surgery & Endodontics · BDS", img: doc1, bio: "Specialist in painless root canal treatments, wisdom tooth surgeries, and advanced dental care." },
-  { name: "Dr. Pavithra", role: "Dermatology & Cosmetology · MD", img: doc2, bio: "Expert in PRP hair loss therapy, skin rejuvenation, acne scar care, and medical facials." },
+  { name: "Dr. Arul Joshua Joy", role: "Dental Surgeon, BDS", img: doc1, bio: "Specialist in painless root canal treatments, wisdom tooth surgeries, and advanced dental care." },
+  { name: "Dr. Pavithra", role: "Medical Cosmetologist", img: doc2, bio: "Expert in PRP hair loss therapy, skin rejuvenation, acne scar care, and medical facials." },
 ];
 
 export const testimonials = [
